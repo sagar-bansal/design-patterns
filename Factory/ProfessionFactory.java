@@ -6,7 +6,7 @@ public class ProfessionFactory {
         return new Doctor();
         else if(type.equalsIgnoreCase("engineer"))
         return new Engineer();
-        else if(type.equalsIgnoreCase("teacher"))
+        else 
         return new Teacher();
     }
 }
