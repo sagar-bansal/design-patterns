@@ -4,20 +4,33 @@ Tried and tested solution to common problems hence reduced technical risk
 They are language neutral
 Solution is easy and extendable
 
- Creational
+Creational
 
-Focus on way of creating objects
-Define and describe how objects are created 
+                Focus on way of creating objects
+                Define and describe how objects are created 
 
-Factory : Basically its for hiding the details and returning the object of the specified class which is inherited from the parent interface
-          We need to have a factory and the client(main) creates an object of factory. In factory we have a method which creates different objects based on the parameter.
-          Now the client calls that method with the parameter nd accepts the object in a variable of type of the parent interface.
-Abstract Factory
-Builder
-singleton
-Prototype
+                Factory : Basically its for hiding the details and returning the object of the specified class which is inherited from the parent interface
+                        We need to have a factory and the client(main) creates an object of factory. In factory we have a method which creates different objects based on the parameter.
+                        Now the client calls that method with the parameter nd accepts the object in a variable of type of the parent interface.
+                        We dont expose the creational logic to client
+                        Factory pattern also known as virtual constructor
+                        
+                Abstract Factory Factory of factory
 
- Behavioral
+                Builder
+
+                Singleton: Involves aa single class which is responsible for creating object and makes sure only one object is created
+                        We access the object directly without having a new keyword access to it
+                        define a class that has only one instance and provides a global point of access to it
+                        There are two forms of singleton design pattern
+
+                                Early Instantiation: creation of instance at load time.
+                                Lazy Instantiation: creation of instance when required.
+
+
+                Prototype
+
+Behavioral
 
 
 
