@@ -1,0 +1,24 @@
+Design patterns are solutions to specific problems.Eg only one object: singleton
+These are documented and understandable by diff SDE and Architect
+Tried and tested solution to common problems hence reduced technical risk
+They are language neutral
+Solution is easy and extendable
+
+ Creational
+
+Focus on way of creating objects
+Define and describe how objects are created 
+
+Factory : Basically its for hiding the details and returning the object of the specified class which is inherited from the parent interface
+          We need to have a factory and the client(main) creates an object of factory. In factory we have a method which creates different objects based on the parameter.
+          Now the client calls that method with the parameter nd accepts the object in a variable of type of the parent interface.
+Abstract Factory
+Builder
+singleton
+Prototype
+
+ Behavioral
+
+
+
+ Structural
